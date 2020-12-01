@@ -1,7 +1,7 @@
 import numpy as np
 
 a = np.array([[3, -12, 5], [7, 4, -2], [5, -3, -4]])
-b = np.array([3, -5, -4])
+b = np.array([3, -5, 10])
 
 x, y, z = np.linalg.solve(a, b)
 print(f'№ 1\n'
