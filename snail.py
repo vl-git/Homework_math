@@ -17,7 +17,6 @@ class Snail():
             self._y_location += self.night_speed
             self._nights_spent += 1
 
-
     def status(self):
         if self._finished:
             return 'Got the candy!'
